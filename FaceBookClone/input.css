@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+
+.btn{
+    /* text-white py-3 px-5 bg-blue-600 */
+    color: white;
+    padding-left: 1.25rem/* 20px */;
+    padding-right: 1.25rem/* 20px */;
+    padding-top: 0.5rem/* 8px */;
+    padding-bottom: 0.5rem/* 8px */;
+    border-radius: 0.125rem/* 2px */;
+    --tw-bg-opacity: 1;
+    background-color: rgb(37 99 235 / var(--tw-bg-opacity));
+    
+}
+@media (max-width: 768px) {
+    .navbar-items {
+      display: none;
+    }
+  }
+@tailwind utilities;
